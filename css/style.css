@@ -21,8 +21,11 @@ h6 {
 p {
   margin: 0;
 }
-
+/* Added some colour and changed the font for the header, moved the text in the centre and made it a little bigger
+  */
 header {
   background-color: olive;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
 }
