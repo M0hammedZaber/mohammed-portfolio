@@ -21,11 +21,42 @@ h6 {
 p {
   margin: 0;
 }
+
 /* Added some colour and changed the font for the header, moved the text in the centre and made it a little bigger
   */
-header {
+header h1 {
   background-color: olive;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
-  font-size: 30px;
+}
+
+nav {
+  background-color: bisque;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* realised that to move the text within the container i have to target the property within that container so target with nav a  */
+nav a {
+  color: blue;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Added an image by targetting the hero-banner  */
+.hero-banner {
+  background-image: url("../images/02-portfolio-1.jpg");
+  height: 180px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  padding-right: 50px;
+}
+/* Added to my subtitle by targeting the class and h2 property directly  */
+.hero-banner h2 {
+background-color: orange;
+width: 360px;
+height: 50px;
 }
