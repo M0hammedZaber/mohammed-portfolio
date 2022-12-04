@@ -63,27 +63,59 @@ nav a {
   width: 360px;
   height: 50px;
 }
+
 /* Added a content grid with rows and columns of how the text and images will apear on the page.   */
 #contentGrid {
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-template-columns: 25% 75%;
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+  grid-template-columns: 20% 40% 40%;
   grid-template-areas:
-    "aboutme abtext"
-    "myexperience meimage"
-    "contactme cmlinks";
+    "aboutme abtext abtext"
+    "myexperience meimage meimage"
+    "nodata myexperience1 myexperience2"
+    "nodata myexperience3 myexperience4"
+    "contactme cmlinks cmlinks";
 }
+
 /* Had to seperate the headings from the content to put them in order they appear and the correct placement */
 #aboutme {
   grid-area: aboutme;
 }
 
 #myexperience {
-grid-area: myexperience;
+  grid-area: myexperience;
 }
 
 #contactme {
   grid-area: contactme;
+}
+
+#cmlinks {
+  grid-area: cmlinks;
+}
+
+#meimage {
+  grid-area: meimage;
+}
+
+#myexperience1 {
+  grid-area: myexperience1;
+}
+
+#myexperience2 {
+  grid-area: myexperience2;
+}
+
+#myexperience3 {
+  grid-area: myexperience3;
+}
+
+#myexperience4 {
+  grid-area: myexperience4;
+}
+
+#nodata {
+  grid-area: nodata;
 }
 
 .contentGridArea {
