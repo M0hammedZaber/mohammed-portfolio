@@ -27,15 +27,15 @@ p {
 header h1 {
   background-color: olive;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 nav {
   background-color: bisque;
   height: 60px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
 
 /* realised that to move the text within the container i have to target the property within that container so target with nav a  */
@@ -67,7 +67,10 @@ nav a {
 /* Added a content grid with rows and columns of how the text and images will apear on the page.   */
 #contentGrid {
   display: grid;
-  grid-template-rows: 1fr 3fr 1fr 1fr 1fr;
+  margin: 120px;
+  row-gap: 15px;
+  column-gap: 15px;
+  grid-template-rows: 1fr 3fr 1.5fr 1.5fr 1fr;
   grid-template-columns: 20% 40% 40%;
   grid-template-areas:
     "aboutme abtext abtext"
@@ -97,25 +100,36 @@ nav a {
 #meimage {
   grid-area: meimage;
 }
+
 /* Added the elements within the grid  */
 #myexperience1 {
   grid-area: myexperience1;
+  background-image: url("../images/flowers.jpg");
+  background-size:cover;
 }
 
 #myexperience2 {
   grid-area: myexperience2;
+  background-image: url("../images/travel.jpg");
+  background-size: cover;
 }
 
 #myexperience3 {
   grid-area: myexperience3;
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 #myexperience4 {
   grid-area: myexperience4;
+  background-image: url("../images/02-hero-bg.jpg");
 }
 
 #nodata {
   grid-area: nodata;
+}
+
+#abtext {
+  grid-area: abtext;
 }
 
 
@@ -131,17 +145,4 @@ nav a {
 
 #meimage {
   background-image: url("../images/02-portfolio-3.jpg");
-}
-
-#myexperience1 {  
-  background-image: url("../images/02-portfolio-2.jpg");
-}
-#myexpericence2 {
-  background-image: url("../images/02-portfolio-4.jpg");
-}
-#myexperience3 {
-  background-image: url("../images/02-run-buddy.jpg");
-}
-#myexperience4 {
-  background-image: url("../images/02-hero-bg.jpg");
 }
