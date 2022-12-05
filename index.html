@@ -8,65 +8,75 @@
   <title>The best portfolio</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- Ammended the title and the link to the css as mistakenly didn't scroll up to see this was already included and i didn't have to create my own  -->
-
 <body>
+<!-- Ammended the title and the link to the css as mistakenly didn't scroll up to see this was already included and i didn't have to create my own  -->
   <!-- main logo / nav -->
   <header>
     <h1>Mohammed Zaber</h1>
     <!-- Added links in navigation  -->
+    <!-- Time to move this on one line like the image -->
     <nav>
-      <a href="#">About me</a>
-      <a href="#">My experience</a>
-      <a href="#">Contact Me</a>
-      <a href="#">Hobbies</a>
+      <ul>
+        <li>
+          <a href="#">About me</a>
+        </li>
+        <li>
+          <a href="#">My experience</a>
+        </li>
+        <li>
+          <a href="#">Contact Me</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>Welcome to my world!</h2>
+    </div>
+  </section>  
+  <!-- Added my contentGrid sections to the page  -->
+  <section id="contentGrid">
+    <div id="aboutme" class="contentGridArea">
+      <div class="contentHeading">About me</div>
+    </div>
+    <div id="abtext" class="content">
+      <p> I am a hard-working and dynamic professional looking for an opportunity to grow in a new, exciting
+        environment. I have a passion for front-end web development and have recently started a fantastic bootcamp
+        course to help me with this journey.</p>
+    </div>
+    <div id="myexperience" class="contentGridArea">
+      <div class="contentHeading">My experience</div>
+    </div>
+    <div id="meimage" class="content">
+      <p>My experiences</p>
+    </div>
+    <div id="contactme" class="contentGridArea">
+      <div class="contentHeading">Contact Me</div>
+    </div>
+    <div id="cmlinks" class="content">
+      <p>contact cm links</p>
+    </div>
+    <!-- Added the boxes that my content is going in  -->
+    <div id="myexperience1" class="contentGridArea">
+      <div class="content">text1</div>
+    </div>
+    <div id="myexperience2" class="contentGridArea">
+      <div class="content">text2</div>
+    </div>
+    <div id="myexperience3" class="contentGridArea">
+      <div class="content">text3</div>
+    </div>
+    <div id="myexperience4" class="contentGridArea">
+      <div class="content">text4</div>
+    </div>
+    <div id="nodata" class="contentGridArea">
+      <div class="contentHeading"></div>
     </div>
   </section>
-<!-- Added my contentGrid sections to the page  -->
-  <section id="contentGrid">
-<div id="aboutme" class="contentGridArea">
-  <div class="contentHeading">About me</div>
-</div>
-<div id="abtext" class="content">
-  <p> I am a hard-working and dynamic professional looking for an opportunity to grow in a new, exciting environment. I have a passion for front-end web development and have recently started a fantastic bootcamp course to help me with this journey.</p>
-</div>
-<div id="myexperience" class="contentGridArea">
-  <div class="contentHeading">My experience</div>
-</div>
-<div id="meimage" class="content">
-<p>My experiences</p>
-</div>
-<div id="contactme" class="contentGridArea">
-  <div class="contentHeading">Contact Me</div>
-</div>
-<div id="cmlinks" class="content">
-<p>contact cm links</p>
-</div>
-<!-- Added the boxes that my content is going in  -->
-<div id="myexperience1" class="contentGridArea">
-  <div class="content">text1</div>
-</div>
-<div id="myexperience2" class="contentGridArea">
-  <div class="content">text2</div>
-</div>
-<div id="myexperience3" class="contentGridArea">
-  <div class="content">text3</div>
-</div>
-<div id="myexperience4" class="contentGridArea">
-  <div class="content">text4</div>
-</div>
-<div id="nodata" class="contentGridArea">
-  <div class="contentHeading"></div>
-</div>
-</section>
   </main>
 </body>
 <!-- Removed the preloaded selection of the about me, work and contact me and added my own -->
+
 </html>
