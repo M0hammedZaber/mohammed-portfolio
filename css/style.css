@@ -48,7 +48,7 @@ header nav ul li {
   margin-left: 25px;
 }
 
-a {
+nav a {
   color: lightsalmon;
   text-decoration-line: underline;
   font-size: 25px;
@@ -139,10 +139,11 @@ a {
 
 #abtext {
   grid-area: abtext;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contentHeading {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -153,4 +154,46 @@ a {
 
 #meimage {
   background-image: url("../images/02-portfolio-3.jpg");
+}
+/* wanted to make the boxes blend in to the background rather than keep the same for all  */
+#myexperience4 p {
+  display: inline-block;
+  background-color: black;
+  height: 60px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+#myexperience3 p {
+  display: inline-block;
+  background-color: yellowgreen;
+  height: 60px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#myexperience2 p {
+  display: inline-block;
+  background-color: lightskyblue;
+  height: 60px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#myexperience1 p {
+  display: inline-block;
+  background-color: grey;
+  height: 60px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+#meimage p {
+  display: inline-block;
+  background-color: darkcyan;
+  height: 60px;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
