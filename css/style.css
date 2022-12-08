@@ -147,7 +147,7 @@ nav a {
 #abtext {
   grid-area: abtext;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex
+  display: flex;
 }
 
 .contentHeading {
@@ -277,3 +277,4 @@ nav a {
     margin: 50px;
     padding: 50px;
   }
+}
