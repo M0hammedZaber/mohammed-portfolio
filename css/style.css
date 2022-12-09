@@ -27,6 +27,7 @@ header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: left;
 }
+
 /* moved the header and the links into 1 section  */
 h1 {
   display: inline-block;
@@ -57,7 +58,7 @@ nav a {
 /* Added an image by targetting the hero-banner  */
 .hero-banner {
   background-image: url("../images/travel.jpg");
-  background-size:contain;
+  background-size: contain;
   height: 180px;
   display: flex;
   align-items: flex-end;
@@ -67,7 +68,7 @@ nav a {
 
 /* Added to my subtitle by targeting the class and h2 property directly  */
 .hero-banner h2 {
-  background-color:cadetblue;
+  background-color: cadetblue;
   width: 260px;
   height: 40px;
 }
@@ -166,6 +167,7 @@ nav a {
   border: 4px solid;
   border-color: black;
 }
+
 /* wanted to make the boxes blend in to the background rather than keep the same for all  */
 #myexperience4 p {
   display: inline-block;
@@ -184,6 +186,7 @@ nav a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
+
 #myexperience2 p {
   display: inline-block;
   background-color: lightskyblue;
@@ -192,6 +195,7 @@ nav a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
+
 #myexperience1 p {
   display: inline-block;
   background-color: grey;
@@ -200,6 +204,7 @@ nav a {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
 }
+
 #meimage p {
   display: inline-block;
   background-color: darkcyan;
@@ -226,7 +231,7 @@ nav a {
 
   #contentGrid {
     margin: 10px;
-    row-gap: 5px;
+    row-gap: 10px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 80px 350px 80px 400px 150px 150px 150px 150px 80px 200px;
@@ -277,5 +282,9 @@ nav a {
   #cmlinks a {
     margin: 50px;
     padding: 50px;
+  }
+
+  #abtext {
+    margin-bottom: 10px;
   }
 }
