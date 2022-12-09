@@ -91,6 +91,7 @@ nav a {
 /* Had to seperate the headings from the content to put them in order they appear and the correct placement */
 #aboutme {
   grid-area: aboutme;
+  margin-bottom: 15px;
 }
 
 #myexperience {
